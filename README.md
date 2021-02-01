@@ -2,10 +2,9 @@
 
 <br/><br/><br/>
 
+# Práctica 08: Mejora de biblioteca de películas.
 
-# Práctica 07: Cifras y letras
-
-Versión: 30 de enero de 2021.
+Versión: 31 de enero de 2021.
 
 ## Objetivos
 
