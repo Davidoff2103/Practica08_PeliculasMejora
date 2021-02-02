@@ -13,7 +13,7 @@
             font-family: 'Roboto', sans-serif;
         }
 
-        h1:hover {
+        h1:hover, h3:hover {
             filter: brightness(90%);
         }
 
