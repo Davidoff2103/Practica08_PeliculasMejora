@@ -228,8 +228,10 @@
 
        const resetContr = async () => {
            // Completar:  controlador que reinicia el modelo guardado en myjson con las películas originales
-           localStorage.URL = await postAPI( mis_peliculas_iniciales );
-           await indexContr();
+           if ( confirm( '¿Seguro que quieres reiniciar la base de datos?' ) ) {
+               localStorage.URL = await postAPI( mis_peliculas_iniciales );
+               await indexContr();
+           }
        }
 
        // ROUTER de eventos
